@@ -9,3 +9,9 @@ O jogador tem 6 chances para acertar a palavra secreta de 5 letra, caso a casa d
 ## Objetivo do projeto
 
 Aprimorar conhecimentos em React e Tailwind, desevolvendo uma aplicação interativa com componentes reutilizáveis, eventos manipulaveis, estados gerenciados e estilização mobile-first com a versão 4 do Tailwind CSS. Criar interface simples, mas também interativa e responsiva.
+
+<br>
+
+### Observações
+
+_Projeto insipirado no jogo Termo, jogo brasileiro de adivinhação no mesmo estilo. O projeto tem como objetivo único de recriar a mecânica do jogo e desenvolver conhecimentos no desenvolvimento de aplicações front-end._
