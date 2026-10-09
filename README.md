@@ -1,19 +1,11 @@
-# React + Vite
+# Verbo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Jogo de adivinhação de palavras de 5 letras, feito com React + Vite e Tailwind 4.
 
-Currently, two official plugins are available:
+## Modo de jogar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O jogador tem 6 chances para acertar a palavra secreta de 5 letra, caso a casa da letra fique verde, significa que a letra está no lugar correto. Caso fique amarela, a letra existe na palavra, porém está na posição errada. Caso a cor escureça, a letra não está na palavra.
 
-## React Compiler
+## Objetivo do projeto
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Aprimorar conhecimentos em React e Tailwind, desevolvendo uma aplicação interativa com componentes reutilizáveis, eventos manipulaveis, estados gerenciados e estilização mobile-first com a versão 4 do Tailwind CSS. Criar interface simples, mas também interativa e responsiva.
