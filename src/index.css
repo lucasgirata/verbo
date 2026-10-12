@@ -6,6 +6,8 @@
 @theme {
   --font-main: "DotGothic16", sans-serif;
   --color-teal-650: #0d7d74;
+  --color-tealgreen: #1bbe82;
+  --color-goldyellow: #facc15;
   --border-width-6: 0.25rem;
   --border-width-3: 0.1875rem;
 }
