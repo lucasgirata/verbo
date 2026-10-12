@@ -76,9 +76,9 @@ const Header = () => {
 
             <p className="text-teal-950 dark:text-teal-100 text-xl my-4 flex flex-wrap items-center justify-center">
               A letra
-              <div className="text-teal-950 h-8 w-8 mx-3 bg-tealgreen text-xl rounded border-2 border-teal-800">
+              <span className="text-teal-950 h-8 w-8 mx-3 bg-tealgreen text-xl rounded border-2 border-teal-800">
                 V
-              </div>
+              </span>
               está na posição correta.
             </p>
 
@@ -102,9 +102,9 @@ const Header = () => {
 
             <p className="text-teal-950 dark:text-teal-100 text-xl my-4 flex flex-wrap items-center justify-center">
               A letra
-              <div className="text-teal-950 h-8 w-8 mx-3 bg-goldyellow text-xl rounded border-2 border-teal-800">
+              <span className="text-teal-950 h-8 w-8 mx-3 bg-goldyellow text-xl rounded border-2 border-teal-800">
                 M
-              </div>
+              </span>
               existe na palavra, mas está na posição incorreta.
             </p>
 
@@ -128,9 +128,9 @@ const Header = () => {
 
             <p className="text-teal-950 dark:text-teal-100 text-xl my-4 flex flex-wrap items-center justify-center">
               A letra
-              <div className="text-teal-950 h-8 w-8 mx-3 bg-black/50 dark:bg-black/0.5 text-xl rounded border-2 border-teal-800">
+              <span className="text-teal-950 h-8 w-8 mx-3 bg-black/50 dark:bg-black/0.5 text-xl rounded border-2 border-teal-800">
                 O
-              </div>
+              </span>
               não está na palavra.
             </p>
 
