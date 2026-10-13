@@ -1,8 +1,35 @@
+import { useRef, useEffect } from "react";
+
 const Word = () => {
+  const inputsRef = useRef([]);
+
+  useEffect(() => {
+    inputsRef.current[0]?.focus();
+  });
+
+  const handleKeyDown = (e, index) => {
+    let nextIndex = index;
+
+    if (e.key === "ArrowLeft") {
+      nextIndex--;
+    } else if (e.key === "ArrowRight") {
+      nextIndex++;
+    } else {
+      return;
+    }
+
+    if (nextIndex >= 0 && nextIndex < 5) {
+      e.preventDefault();
+      inputsRef.current[nextIndex]?.focus();
+    }
+  };
+
   return (
     <form className="flex items-center justify-center">
-      {[1, 2, 3, 4, 5].map((num) => (
+      {[1, 2, 3, 4, 5].map((num, index) => (
         <input
+          ref={(element) => (inputsRef.current[index] = element)}
+          onKeyDown={(event) => handleKeyDown(event, index)}
           key={num}
           type="text"
           maxLength={1}
